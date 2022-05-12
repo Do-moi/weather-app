@@ -34,11 +34,11 @@
     <title>Weather-App</title>
   </head>
 
-  <body>
+  <body class="imgBackground">
     <!-- HEADER -->
     <nav class="header navbar navbar-light bg-dark">
       Weather App
-      <a class="logout" href="/users/deconnexion">Deconnexion</a>
+      <a class="logout" href="/users/deconnexion">Logout</a>
     </nav>
 
     <!-- Modal -->
@@ -96,10 +96,12 @@
         </form>
       </div>
       <div class="row">
-        <div id="worldmap" class="col-xs-12 col-lg-5"></div>
+        <div id="worldmap" class="col-xs-12 col-lg-5 rounded"></div>
         <div class="col-xs-12 col-lg-6">
           <p class="text-center pb-2">
-            <a href="/update">update <i class="fas fa-sync-alt"></i></a>
+            <a href="/update"
+              ><strong>Update</strong> <i class="fas fa-sync-alt"></i
+            ></a>
           </p>
           <ul class="list-group tab">
             <% if(cityList.length<1 ){%>

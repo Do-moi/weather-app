@@ -1,5 +1,5 @@
 a {
-  color: #00b7ff;
+  color: #090211;
 }
 
 .empty {
@@ -10,6 +10,10 @@ a {
 .logout {
   margin-left: auto;
   margin-right: 15px;
+  color: #ffc107;
+}
+a:hover {
+  color: #ffffff;
 }
 
 .home {
@@ -17,7 +21,6 @@ a {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
   color: #ffffff;
   text-shadow: 1px 1px 1px black;
   padding-top: 20px;
@@ -38,7 +41,8 @@ a {
 
 .header {
   margin-bottom: 50px;
-  color: #ffffff;
+  color: white;
+  opacity: 0.9;
 }
 
 .croix {
@@ -87,4 +91,14 @@ body {
 }
 .formArea {
   padding: 10px;
+}
+.imgBackground {
+  background-image: url("../images/winter.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.tab {
+  opacity: 0.8;
 }
